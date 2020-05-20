@@ -22,10 +22,8 @@ class App extends Component {
             <Timeline></Timeline>
             <Projects></Projects>
             <Blog></Blog>
-            <div id="footer-wrap">
             <Contact></Contact>
             <ContactForm></ContactForm>
-            </div>
           </div>
           </div>
       </div>
