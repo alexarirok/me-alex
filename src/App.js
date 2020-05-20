@@ -4,6 +4,10 @@ import Sidebar from './components/sidebar';
 import Introduction from './components/introduction';
 import About from './components/about';
 import Timeline from './components/timeline';
+import Projects from './components/projects';
+import Blog from './components/blog';
+import Contact from './components/contact';
+import ContactForm from './components/contactForm';
 
 
 class App extends Component {
@@ -16,6 +20,12 @@ class App extends Component {
             <Introduction></Introduction>
             <About></About>
             <Timeline></Timeline>
+            <Projects></Projects>
+            <Blog></Blog>
+            <div id="footer-wrap">
+            <Contact></Contact>
+            <ContactForm></ContactForm>
+            </div>
           </div>
           </div>
       </div>
